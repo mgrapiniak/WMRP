@@ -1,4 +1,14 @@
 # Hardware and Arduino Code for DIY WMRP-Solder Station
+This is an attempt to implement some improvements:
+
+* Replace LCD with 1.8 Inch Serial SPI TFT LCD Display Module
+* Add SPI header onto PCB
+* Code amendments
+
+Contributors:
+- Bartosz Wapniewski
+
+
 
 Video: https://www.youtube.com/watch?v=le2HaKJ6B1A
 
