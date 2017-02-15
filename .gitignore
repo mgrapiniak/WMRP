@@ -1,4 +1,4 @@
 # System Files
 *.DS_Store
-layout/eagle/*.b##
-layout/eagle/*.s##
+layout/eagle/*.b#?
+layout/eagle/*.s#?
