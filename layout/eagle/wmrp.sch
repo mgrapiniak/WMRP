@@ -24903,15 +24903,8 @@ else:       SENSOR_2 = 1.5625 V</text>
 <net name="BL" class="0">
 <segment>
 <pinref part="SPI1" gate="G$1" pin="2"/>
-<wire x1="416.56" y1="5.08" x2="411.48" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="5.08" x2="401.32" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="401.32" y1="5.08" x2="401.32" y2="-5.08" width="0.1524" layer="91"/>
-<label x="396.24" y="-2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="PF0(ADC0)"/>
-<wire x1="180.34" y1="248.92" x2="187.96" y2="248.92" width="0.1524" layer="91"/>
-<label x="182.88" y="248.92" size="1.778" layer="95"/>
+<wire x1="411.48" y1="5.08" x2="398.78" y2="5.08" width="0.1524" layer="91"/>
+<label x="398.78" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -24959,6 +24952,11 @@ else:       SENSOR_2 = 1.5625 V</text>
 <pinref part="R55" gate="G$1" pin="2"/>
 <wire x1="391.16" y1="25.4" x2="391.16" y2="35.56" width="0.1524" layer="91"/>
 <label x="391.16" y="31.75" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PF0(ADC0)"/>
+<wire x1="180.34" y1="248.92" x2="187.96" y2="248.92" width="0.1524" layer="91"/>
+<label x="182.88" y="248.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS" class="0">
